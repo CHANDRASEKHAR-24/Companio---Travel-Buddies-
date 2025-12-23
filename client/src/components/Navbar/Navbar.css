@@ -1,0 +1,49 @@
+
+/* Navbar Styles */
+.nav-link {
+  @apply relative px-4 py-2 rounded-lg text-neutral-600 hover:text-primary-600 transition-all duration-300 font-medium overflow-hidden;
+}
+
+.nav-link::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-primary-50 to-primary-100 rounded-lg opacity-0 transition-all duration-300 transform scale-95;
+  z-index: -1;
+}
+
+.nav-link:hover::before {
+  @apply opacity-100 scale-100;
+}
+
+.nav-link:hover {
+  @apply transform scale-105;
+}
+
+.nav-link-active {
+  @apply text-primary-600 bg-gradient-to-r from-primary-50 to-primary-100 shadow-sm;
+}
+
+.nav-link-active::before {
+  @apply opacity-100 scale-100;
+}
+
+.hero-text-gradient {
+  @apply bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent;
+}
+
+/* Mobile menu styles */
+.mobile-nav-item {
+  @apply flex items-center px-4 py-3 rounded-lg transition-all duration-300 text-neutral-600 hover:bg-gradient-to-r hover:from-primary-50 hover:to-primary-100 hover:text-primary-600 hover:transform hover:scale-105;
+}
+
+.mobile-nav-item-active {
+  @apply bg-gradient-to-r from-primary-50 to-primary-100 text-primary-600 shadow-sm;
+}
+
+/* Enhanced hover effects */
+.nav-link:hover {
+  @apply shadow-sm;
+}
+
+.mobile-nav-item:hover {
+  @apply shadow-sm;
+}
