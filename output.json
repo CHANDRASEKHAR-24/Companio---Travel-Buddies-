@@ -1,0 +1,428 @@
+{
+  "id": "xbB8b5KUqHw0",
+  "name": "main",
+  "path": [
+    "/"
+  ],
+  "tech": null,
+  "edges": [],
+  "inComponent": null,
+  "childs": [
+    {
+      "id": "v9YbYnVw0NIN",
+      "name": "client",
+      "path": [
+        "\\travelBuddies-final\\travelBuddies-main\\travelBuddies-main\\client\\package.json"
+      ],
+      "tech": null,
+      "edges": [
+        {
+          "target": "B9vFj0fpDzwt",
+          "read": true,
+          "write": true
+        },
+        {
+          "target": "D5AvToOkI8x6",
+          "read": true,
+          "write": true
+        }
+      ],
+      "inComponent": "4XKUYQ1QjrV6",
+      "childs": [
+        {
+          "id": "B9vFj0fpDzwt",
+          "name": "Lucide Icons",
+          "path": [
+            "\\travelBuddies-final\\travelBuddies-main\\travelBuddies-main\\client\\package.json"
+          ],
+          "tech": "lucideicons",
+          "edges": [],
+          "inComponent": null,
+          "childs": [],
+          "techs": [],
+          "languages": {},
+          "licenses": [],
+          "dependencies": [],
+          "reason": [
+            "lucideicons matched: /^lucide-react$/"
+          ]
+        },
+        {
+          "id": "D5AvToOkI8x6",
+          "name": "React Icons",
+          "path": [
+            "\\travelBuddies-final\\travelBuddies-main\\travelBuddies-main\\client\\package.json"
+          ],
+          "tech": "reacticons",
+          "edges": [],
+          "inComponent": null,
+          "childs": [],
+          "techs": [],
+          "languages": {},
+          "licenses": [],
+          "dependencies": [],
+          "reason": [
+            "reacticons matched: /^react-icons$/"
+          ]
+        },
+        {
+          "id": "4XKUYQ1QjrV6",
+          "name": "Vercel",
+          "path": [
+            "\\travelBuddies-final\\travelBuddies-main\\travelBuddies-main\\client\\package.json"
+          ],
+          "tech": "vercel",
+          "edges": [],
+          "inComponent": null,
+          "childs": [],
+          "techs": [],
+          "languages": {},
+          "licenses": [],
+          "dependencies": [],
+          "reason": [
+            "matched file: vercel.json"
+          ]
+        }
+      ],
+      "techs": [
+        "css",
+        "esbuild",
+        "eslint",
+        "javascript",
+        "jsx",
+        "lucideicons",
+        "nodejs",
+        "npm",
+        "radixui",
+        "react",
+        "reacticons",
+        "reactrouterdom",
+        "scss",
+        "tailwind",
+        "vercel",
+        "vite"
+      ],
+      "languages": {
+        "JavaScript": 57,
+        "HTML": 1,
+        "JSON": 3,
+        "SVG": 6,
+        "SCSS": 2,
+        "CSS": 4
+      },
+      "licenses": [],
+      "dependencies": [
+        [
+          "npm",
+          "@radix-ui/react-slot",
+          "^1.0.2"
+        ],
+        [
+          "npm",
+          "@reduxjs/toolkit",
+          "^1.9.5"
+        ],
+        [
+          "npm",
+          "axios",
+          "^1.4.0"
+        ],
+        [
+          "npm",
+          "class-variance-authority",
+          "^0.7.0"
+        ],
+        [
+          "npm",
+          "clsx",
+          "^2.0.0"
+        ],
+        [
+          "npm",
+          "framer-motion",
+          "^10.16.4"
+        ],
+        [
+          "npm",
+          "lucide-react",
+          "^0.294.0"
+        ],
+        [
+          "npm",
+          "react",
+          "^18.2.0"
+        ],
+        [
+          "npm",
+          "react-calendar",
+          "^4.3.0"
+        ],
+        [
+          "npm",
+          "react-dom",
+          "^18.2.0"
+        ],
+        [
+          "npm",
+          "react-icons",
+          "^4.10.1"
+        ],
+        [
+          "npm",
+          "react-redux",
+          "^8.1.1"
+        ],
+        [
+          "npm",
+          "react-router-dom",
+          "^6.14.1"
+        ],
+        [
+          "npm",
+          "sass",
+          "^1.63.6"
+        ],
+        [
+          "npm",
+          "socket.io-client",
+          "^4.8.1"
+        ],
+        [
+          "npm",
+          "tailwind-merge",
+          "^2.0.0"
+        ],
+        [
+          "npm",
+          "@tailwindcss/forms",
+          "^0.5.7"
+        ],
+        [
+          "npm",
+          "@tailwindcss/typography",
+          "^0.5.10"
+        ],
+        [
+          "npm",
+          "@types/react",
+          "^18.0.37"
+        ],
+        [
+          "npm",
+          "@types/react-dom",
+          "^18.0.11"
+        ],
+        [
+          "npm",
+          "@vitejs/plugin-react",
+          "^5.1.1"
+        ],
+        [
+          "npm",
+          "autoprefixer",
+          "^10.4.16"
+        ],
+        [
+          "npm",
+          "baseline-browser-mapping",
+          "^2.8.28"
+        ],
+        [
+          "npm",
+          "esbuild",
+          "^0.27.0"
+        ],
+        [
+          "npm",
+          "eslint",
+          "^8.38.0"
+        ],
+        [
+          "npm",
+          "eslint-plugin-react",
+          "^7.32.2"
+        ],
+        [
+          "npm",
+          "eslint-plugin-react-hooks",
+          "^4.6.0"
+        ],
+        [
+          "npm",
+          "eslint-plugin-react-refresh",
+          "^0.3.4"
+        ],
+        [
+          "npm",
+          "postcss",
+          "^8.4.32"
+        ],
+        [
+          "npm",
+          "tailwindcss",
+          "^3.3.6"
+        ],
+        [
+          "npm",
+          "vite",
+          "^7.2.2"
+        ]
+      ],
+      "reason": [
+        "radixui matched: /^@radix-ui\\/react-slot$/",
+        "lucideicons matched: /^lucide-react$/",
+        "react matched: /^react$/",
+        "reacticons matched: /^react-icons$/",
+        "reactrouterdom matched: /^react-router-dom$/",
+        "esbuild matched: /^esbuild$/",
+        "eslint matched: /^eslint$/",
+        "tailwind matched: /^tailwindcss$/",
+        "vite matched: /^vite$/",
+        "matched file: vercel.json",
+        "matched file: .eslintrc.cjs",
+        "matched file: package-lock.json",
+        "matched file: package.json",
+        "matched file: tailwind.config.js",
+        "matched extension: .js",
+        "matched extension: .css",
+        "matched extension: .jsx",
+        "matched extension: .scss"
+      ]
+    },
+    {
+      "id": "ZvN6XU6krbQl",
+      "name": "server",
+      "path": [
+        "\\travelBuddies-final\\travelBuddies-main\\travelBuddies-main\\server\\package.json"
+      ],
+      "tech": null,
+      "edges": [
+        {
+          "target": "S6jTGeaQP1Tx",
+          "read": true,
+          "write": true
+        }
+      ],
+      "inComponent": null,
+      "childs": [
+        {
+          "id": "S6jTGeaQP1Tx",
+          "name": "MongoDB",
+          "path": [
+            "\\travelBuddies-final\\travelBuddies-main\\travelBuddies-main\\server\\package.json"
+          ],
+          "tech": "mongodb",
+          "edges": [],
+          "inComponent": null,
+          "childs": [],
+          "techs": [],
+          "languages": {},
+          "licenses": [],
+          "dependencies": [],
+          "reason": [
+            "mongodb matched: /mongoose/"
+          ]
+        }
+      ],
+      "techs": [
+        "express",
+        "javascript",
+        "mongodb",
+        "nodejs",
+        "npm",
+        "nvm",
+        "socketio"
+      ],
+      "languages": {
+        "JavaScript": 15,
+        "JSON": 2
+      },
+      "licenses": [
+        "ISC"
+      ],
+      "dependencies": [
+        [
+          "npm",
+          "bcrypt",
+          "^5.1.0"
+        ],
+        [
+          "npm",
+          "bcryptjs",
+          "^2.4.3"
+        ],
+        [
+          "npm",
+          "body-parser",
+          "^1.20.2"
+        ],
+        [
+          "npm",
+          "cors",
+          "^2.8.5"
+        ],
+        [
+          "npm",
+          "dotenv",
+          "^16.3.1"
+        ],
+        [
+          "npm",
+          "express",
+          "^4.18.2"
+        ],
+        [
+          "npm",
+          "jsonwebtoken",
+          "^9.0.2"
+        ],
+        [
+          "npm",
+          "mongoose",
+          "^6.8.2"
+        ],
+        [
+          "npm",
+          "node",
+          "^20.1.0"
+        ],
+        [
+          "npm",
+          "nodemailer",
+          "^6.9.14"
+        ],
+        [
+          "npm",
+          "nodemon",
+          "^2.0.22"
+        ],
+        [
+          "npm",
+          "socket.io",
+          "^4.7.2"
+        ]
+      ],
+      "reason": [
+        "express matched: /^express$/",
+        "mongodb matched: /mongoose/",
+        "socketio matched: /^socket.io$/",
+        "matched file: package-lock.json",
+        "matched file: .nvmrc",
+        "matched file: package.json",
+        "matched extension: .js"
+      ]
+    }
+  ],
+  "techs": [
+    "npm"
+  ],
+  "languages": {
+    "Markdown": 5,
+    "JSON": 1
+  },
+  "licenses": [],
+  "dependencies": [],
+  "reason": [
+    "matched file: package-lock.json"
+  ]
+}
